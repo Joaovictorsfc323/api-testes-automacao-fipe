@@ -1,0 +1,9 @@
+jornadas\generico\actions\TokenAction.class
+jornadas\correios\actions\PedidosCorreiosAction.class
+jornadas\generico\actions\GenericoAction.class
+jornadas\pedidos\steps\PedidosSteps.class
+jornadas\generico\steps\GenericoSteps.class
+runners\RunnerTest.class
+jornadas\correios\steps\PedidoscorreiosSteps.class
+jornadas\generico\actions\TokenActionCorreios.class
+jornadas\pedidos\actions\PedidosAction.class

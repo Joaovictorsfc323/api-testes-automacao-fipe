@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.307 sec <<< FAILURE!
+Verificar criar pedidos correios(Validar pedidos correios)  Time elapsed: 6.36 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.net.http.HttpResponse.statusCode()" because "response" is null
+	at jornadas.generico.actions.GenericoAction.validarStatusCode(GenericoAction.java:12)
+	at jornadas.pedidos.steps.PedidosSteps.devo_obter_o_codigo_de_status(PedidosSteps.java:38)
+	at ?.devo obter o codigo de status 200(file:src/test/java/jornadas/correios/features/criar-pedido-correios.feature:8)
+
